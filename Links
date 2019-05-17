@@ -1,0 +1,21 @@
+ LINKS & IMAGE sources
+========================
+
+
+FCC Link: https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page
+
+CSS styles:
+<link rel="stylesheet" href="css/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="css/style.css">This is the links to the references and image tags
+
+Title Link: https://dragonball.fandom.com/wiki/Akira_Toriyama" target="_blank" alt="A link to dragonball and akira toriyama wiki fanpage
+
+Akira Toriyama Image Source: https://vignette.wikia.nocookie.net/dragonball/images/5/5d/Akira21.jpg/revision/latest?cb=20070303102947
+
+Akira Toriyama Quote Link:https://www.goodreads.com/author/quotes/2686.Akira_Toriyama
+
+SSJ Dragonball Background link in CSS: https://i.pinimg.com/564x/51/6e/00/516e00f0b638a60eb4a6259b89f6fafd.jpg
