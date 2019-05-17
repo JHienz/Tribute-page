@@ -1,0 +1,3 @@
+// FCC Responsive Tribute Page Coded by @JHienz
+const projectName = 'tributepage';
+localStorage.setItem('tributepage');
