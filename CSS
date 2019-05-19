@@ -13,22 +13,30 @@ html {
 
 
 
+
 /* DEFAULT (Desktop) ----------- */
 #left-field {
   padding: 20px 0 0 20px;
 }
 
-.title {
-  font-family: "Lora-Bold";
+#title {
+  font-family: "Lora-bold";
   font-size: 5rem;
   color: #fff;
+  margin-bottom: 10px;
+  
 }
 
-.subtitle {
+#subtitle {
   margin-top: -1rem;
   font-family: "Lato-Light";
   font-size: 2rem;
   color: #fff;
+  margin-bottom: 5em;
+}
+#image {
+  border-radius:10px;
+  
 }
 
 h1 a {
@@ -46,18 +54,22 @@ a:hover {
   text-decoration: none;
 }
 
-.blockquote {
+#tribute-info {
   font-family: Lora;
   font-size: 1rem;
   color: #fff;
-  text-align:left;
+  text-align:top;
+  position: top;
 }
 
 .blockquote-footer {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 69em;
   font-family: Lato;
   font-size: 1rem;
   color: #fff;
+  
+  
 }
 
 .blockquote-footer a {
@@ -66,16 +78,10 @@ a:hover {
   color: #fff;
 }
 
-.blockquote-footer a:hover {
+.blockquote-footer {
   color: #D3D3D3;
 }
 
-#bottom-left-field {
-  padding: 20px 0 0 20px;
-  max-width: 40%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 
 .top-right {
@@ -115,17 +121,17 @@ a:hover {
 @media only screen and (max-width : 600px) {
 /* Styles */
 
-  .title {
+  #title {
     font-size: 3em;
   }
 
-  .subtitle {
+  #subtitle {
     margin-top: -.5em;
     font-size: 1.25em;
   }
 
 
-  .blockquote {
+  #tribute-info {
     font-size: .9em;
   }
 
@@ -169,19 +175,20 @@ a:hover {
 @media only screen and (min-width : 480px) and (max-width : 800px) {
   /* Styles */
 
-  .title {
+  #title {
     font-size: 4rem;
   	max-width: 60%;
   }
 
-  .subtitle {
+  #subtitle {
     margin-top: -.5rem;
     font-size: 1.5rem;
   	max-width: 60%;
   }
 
-  .blockquote {
+  #tribute-info {
     font-size: 1rem;
+    position: center;
   }
 
   .blockquote-footer {
@@ -218,15 +225,10 @@ a:hover {
 }
 
 /*   Dragon ball SSJ Goku Background Image (Constant on all platforms)----------- */
-.bg {
-    /* The image used */
-    background-image: url(https://i.pinimg.com/564x/51/6e/00/516e00f0b638a60eb4a6259b89f6fafd.jpg);
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: top center;
+.bgSizeContain {
+    background-image: url(https://wallpapercave.com/wp/wp3830838.jpg);
+    height: 80%;
+    background-position: bottom-center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover ;
 }
