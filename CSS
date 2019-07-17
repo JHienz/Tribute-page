@@ -36,7 +36,8 @@ html {
 }
 #image {
   border-radius:10px;
-  
+  max-width:100%
+    
 }
 
 h1 a {
@@ -82,7 +83,6 @@ a:hover {
   color: #D3D3D3;
 }
 
-}
 
 .top-right {
   padding: 20px 20px 0 0;
@@ -117,112 +117,6 @@ a:hover {
   }
 
 
-/* Mobile Devices (Vertical/Horizontal) ----------- */
-@media only screen and (max-width : 600px) {
-/* Styles */
-
-  #title {
-    font-size: 3em;
-  }
-
-  #subtitle {
-    margin-top: -.5em;
-    font-size: 1.25em;
-  }
-
-
-  #tribute-info {
-    font-size: .9em;
-  }
-
-  .blockquote-footer {
-    margin-top: .5em;
-    font-size: .85em;
-  }
-
-  .blockquote-footer a {
-    font-size: 1em;
-  }
-
-  #bottom-left-field {
-    max-width: 97%;
-  }
-
-  .top-right {
-    padding: 0 .5em 0 .75em;
-    position: relative;
-  }
-
-  .bottom-right {
-    padding: 0 0 0 1em;
-    position: relative;
-    margin-bottom: 1em;
-  }
-
-  .bottom-right a {
-    font-size: .9em;
-  }
-
-  .fa {
-      padding: .25em;
-      font-size: 1.5em;
-      width: 1em;
-  }
-}
-
-
-/* Tablets(Vertical and Horizontal) ----------- */
-@media only screen and (min-width : 480px) and (max-width : 800px) {
-  /* Styles */
-
-  #title {
-    font-size: 4rem;
-  	max-width: 60%;
-  }
-
-  #subtitle {
-    margin-top: -.5rem;
-    font-size: 1.5rem;
-  	max-width: 60%;
-  }
-
-  #tribute-info {
-    font-size: 1rem;
-    position: center;
-  }
-
-  .blockquote-footer {
-    margin-top: .5rem;
-    font-size: .85rem;
-  }
-
-  .blockquote-footer a {
-    font-size: .85rem;
-  }
-
-  #bottom-left-field {
-    max-width: 60%;
-  }
-
-  .top-right {
-    padding: 1rem 1rem 0 0;
-  }
-
-  .bottom-right {
-    padding: 0 1rem 0 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .bottom-right a {
-    font-size: 1rem;
-  }
-
-  .fa {
-      padding: 1rem;
-      font-size: 1.5rem;
-      width: 2rem;
-  }
-}
 
 /*   Dragon ball SSJ Goku Background Image (Constant on all platforms)----------- */
 .bgSizeContain {
